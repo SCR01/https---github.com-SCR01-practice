@@ -1,0 +1,12 @@
+# Ignore executable files
+*.exe
+
+# Ignore output folders
+output/
+Output_00/
+
+# VS Code settings (optional)
+.vscode/
+
+# Build files (if any later)
+*.out
