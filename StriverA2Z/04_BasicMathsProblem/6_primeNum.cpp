@@ -21,4 +21,4 @@ int main(){
             return 0;
         }
    
-}
+}//1 is not a prime number because it has only one divisor (1) and a prime number must have exactly two divisors (1 and itself) an 4 is not a prime number because it has three divisors (1, 2, and 4) and a prime number must have exactly two divisors (1 and itself)

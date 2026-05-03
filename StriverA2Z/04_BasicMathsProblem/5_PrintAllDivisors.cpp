@@ -7,7 +7,8 @@ int main(){
     for(int i = 1;i<=sqrt(n); i++){
         if(n%i == 0){
             div.push_back(i);
-            if(i != n/i){
+            if(i != n/i){//to avoid duplicate when n is a perfect square
+                //if n is not a perfect square then we will have two divisors i and n/i
                 div.push_back(n/i);
             }
         }
